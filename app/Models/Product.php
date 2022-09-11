@@ -14,7 +14,7 @@ class Product extends Model
     }
 
     public function setId($id) {
-        $this->attributes['id'];
+        $this->attributes['id']=$id;
     }
 
     public function getName() {
@@ -22,7 +22,7 @@ class Product extends Model
     }
 
     public function setName($name) {
-        $this->attributes['name'];
+        $this->attributes['name']=$name;
     }
 
     public function getDescription() {
@@ -30,7 +30,7 @@ class Product extends Model
     }
 
     public function setDescription($description) {
-        $this->attributes['description'];
+        $this->attributes['description']=$description;
     }
 
     public function getImage() {
@@ -38,7 +38,7 @@ class Product extends Model
     }
 
     public function setImage($image) {
-        $this->attributes['image'];
+        $this->attributes['image']=$image;
     }
 
     public function getPrice() {
@@ -46,7 +46,7 @@ class Product extends Model
     }
 
     public function setPrice($price) {
-        $this->attributes['price'];
+        $this->attributes['price']=$price;
     }
 
     public function getCreatedAt() {
@@ -54,7 +54,7 @@ class Product extends Model
     }
 
     public function setCreatedAt($createdAt) {
-        $this->attributes['created_at'];
+        $this->attributes['created_at']=$createdAt;
     }
 
     public function getUpdatedAt() {
@@ -62,6 +62,6 @@ class Product extends Model
     }
 
     public function setUpdatedAt($updatedAt) {
-        $this->attributes['updated_at'];
+        $this->attributes['updated_at']=$updatedAt;
     }
 }
